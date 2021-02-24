@@ -2,20 +2,18 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        portfolio
-      </h1>
+      <h1 class="title">Mohit Gir <br /><i>Web Developer</i></h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Resume
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/mohitgir"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
@@ -31,7 +29,7 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss">
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -42,19 +40,14 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 5rem;
+  @media only screen and (max-width: 600px) {
+    font-size: 3rem;
+  }
   color: #35495e;
   letter-spacing: 1px;
 }
