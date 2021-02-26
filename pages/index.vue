@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">Mohit Gir <br /><i>Web Developer</i></h1>
+      <h1 class="title">Mohit Gir <br /><i>Full Stack Developer</i></h1>
       <div class="links">
         <a
           href="/resume.pdf"
