@@ -5,21 +5,29 @@
       <h1 class="title">Mohit Gir <br /><i>Web Developer</i></h1>
       <div class="links">
         <a
-          href="/resume.pdf"
+          href="mailto:mohitgir98@outlook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Email Me
+        </a>
+       <a
+          href="/resume-v1.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
           Resume
         </a>
-        <a
+        <!-- <a
           href="https://github.com/mohitgir"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
